@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xam_barcode_scanner.BarcodeResultPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20">
+            <Label Text="Scan result:" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+            <Label x:Name="barcodeResultText" Text="..." TextColor="Black" HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
