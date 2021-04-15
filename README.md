@@ -1,6 +1,10 @@
 # xam-barcode-scanner
 
-Xamarin.Forms project implementing barcode scanner natively on Android and iOS
+Xamarin.Forms project implementing barcode scanner natively on Android and iOS.
+
+QR scanning to function properly requires the Google Play Services app to be installed.
+For the Huawei devices without the services of Google the best solution is probably to import [Huawei Scan Kit](https://developer.huawei.com/consumer/en/hms/huawei-scankit).
+Documentation seems good also for Xamarinians.
 
 ## Supported Formats
 
